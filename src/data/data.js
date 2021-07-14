@@ -1,0 +1,29 @@
+import { PROBLEMS_FIRST_TEN, SOLUTIONS_FIRST_TEN } from "./1-10";
+import { PROBLEMS_ELEVEN_TWENTY, SOLUTIONS_ELEVEN_TWENTY } from "./11-20";
+import { PROLBEMS_TWENTYONE_THIRTY, SOLUTIONS_TWENTYONE_THIRTY } from "./21-30";
+import { PROBLEMS_31_40, SOLUTIONS_31_40 } from "./31-40";
+import { PROBLEMS_41_50, SOLUTIONS_41_50 } from "./41-50";
+import { PROBLEMS_51_60, SOLUTIONS_51_60 } from "./51-60";
+
+const data = {
+  problems: [
+    null,
+    ...PROBLEMS_FIRST_TEN,
+    ...PROBLEMS_ELEVEN_TWENTY,
+    ...PROLBEMS_TWENTYONE_THIRTY,
+    ...PROBLEMS_31_40,
+    ...PROBLEMS_41_50,
+    ...PROBLEMS_51_60,
+  ],
+  solutions: [
+    null,
+    ...SOLUTIONS_FIRST_TEN,
+    ...SOLUTIONS_ELEVEN_TWENTY,
+    ...SOLUTIONS_TWENTYONE_THIRTY,
+    ...SOLUTIONS_31_40,
+    ...SOLUTIONS_41_50,
+    ...SOLUTIONS_51_60,
+  ],
+};
+
+export default data;
